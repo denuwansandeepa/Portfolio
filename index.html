@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Portfolio Website</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container-fluid px-0">
+      <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">
+            <span class="material-icons-outlined me-1">important_devices</span>
+            Denuwan developer
+          </a>
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="container px-3">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link me-lg-3" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-lg-3" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-lg-3" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-lg-3" href="#testimonials">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-lg-3" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <header class="bg-light py-5">
+        <div class="container px-5">
+          <div class="row align-items-center">
+            <div class="col-lg-8 col-xl-7 col-xxl-6">
+              <div class="my-5">
+                <h2 class="text-center fw-bold mb-2">
+                  Hi! I am Denuwan Sandeepa,
+                </h2>
+                <h2 class="text-primary text-center fw-bold mb-2">
+                  a full-stack web developer
+                </h2>
+                <p class="lead text-muted mb-4">
+                  I'm a passionate web developer skilled in React, Node.js,
+                  Firebase, PHP, and Python. I enjoy creating user-friendly
+                  websites and application, with a strong focus on design using
+                  Figama and Bootstrap.
+                </p>
+                <div class="d-grid gap-3 d-sm-flex justify-content-center">
+                  <a
+                    class="btn btn-primary btn-large text-uppercase"
+                    href="#about"
+                  >
+                    Learn More
+                    <span class="material-icons-outlined ms-2"
+                      >help_outline</span
+                    >
+                  </a>
+                  <a
+                    class="btn btn-outline-primary btn-large text-uppercase"
+                    href="#projects"
+                  >
+                    View My Work
+                    <span class="material-icons-outlined ms-2"
+                      >manage_search</span
+                    >
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-5 col-xxl-6 justify-content-center">
+              <img
+                class="img-fluid rounded-3 my-5"
+                src="images/code.gif"
+                alt="Hero Image"
+              />
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section id="about" class="text-center py-5">
+          <div class="container py-5">
+            <div class="row justify-content-center">
+              <h2 class="fw-bold">About</h2>
+              <p class="lead text-muted mb-5">
+                Web developer with skill in React, Node.js, Firebase, PHP,
+                python and UI Design. I build morden, responsive web apps with a
+                focus on performance and user experience.
+              </p>
+            </div>
+          </div>
+          <div class="container mb-5">
+            <div class="row">
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="d-flex mb-5 about">
+                  <span class="material-icons-outlined m-auto text-primary"
+                    >palette</span
+                  >
+                </div>
+                <h5>Design</h5>
+                <p class="text-muted mb-0">
+                  I create beautiful, modern designs optimized for multiple
+                  color modes (light and dark themes).
+                </p>
+              </div>
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="d-flex mb-5 about">
+                  <span class="material-icons-outlined m-auto text-primary"
+                    >code</span
+                  >
+                </div>
+                <h5>Development</h5>
+                <p class="text-muted mb-0">
+                  I develop responsive, scalable, and fast applications using
+                  the best standards and coding practices.
+                </p>
+              </div>
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="d-flex mb-5 about">
+                  <span class="material-icons-outlined m-auto text-primary"
+                    >settings</span
+                  >
+                </div>
+                <h5>Launch & Maintenance</h5>
+                <p class="text-muted mb-0">
+                  Once the application is ready, I will help you launch it and
+                  teach you how to update and maintain it.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <hr />
+
+        <section id="projects" class="text-center py-5">
+          <div class="container py-5">
+            <div class="row justify-content-center">
+              <h2 class="fw-bold">Projects</h2>
+              <p class="lead text-muted mb-5">
+                View some of my latest projects
+              </p>
+            </div>
+          </div>
+          <div class="container mb-5">
+            <div class="row">
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="card h-100 shadow-lg border-0 bg-light">
+                  <img
+                    class="card-img-top"
+                    src="images/grocery.gif"
+                    alt="Project 1"
+                  />
+                  <div class="card-body p-4">
+                    <h5 class="card-title mb-3">Grocery Item Ordered App</h5>
+                    <div class="mb-2">
+                      <div class="badge bg-primary rounded-pill">Node.js</div>
+                      <div class="badge bg-primary rounded-pill">React</div>
+                      <div class="badge bg-primary rounded-pill">
+                        Material UI
+                      </div>
+                    </div>
+                    <p class="card-text">
+                      The Grocery Item Order System is a modern full-stack web
+                      application built using React.js and Firebase. This
+                      project was developed as an academic assignment to
+                      demonstrate knowledge of front-end development, cloud
+                      database integration, and real-time user interactions
+                    </p>
+                  </div>
+                  <div class="card-footer bg-transparent mb-3">
+                    <a
+                      class="btn btn-outline-primary btn-sm text-uppercase"
+                      href="https://github.com/denuwansandeepa/GroceryItemApp"
+                      target="_blank"
+                    >
+                      <span class="material-icons-outlined me-1">code</span>
+                      Source Code
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="card h-100 shadow-lg border-0 bg-light">
+                  <img
+                    class="card-img-top"
+                    src="images/todo.gif"
+                    alt="Project 2"
+                  />
+                  <div class="card-body p-4">
+                    <h5 class="card-title mb-3">To-Do-List</h5>
+                    <div class="mb-2">
+                      <div class="badge bg-primary rounded-pill">PHP</div>
+                      <div class="badge bg-primary rounded-pill">HTML</div>
+                      <div class="badge bg-primary rounded-pill">CSS</div>
+                    </div>
+                    <p class="card-text">
+                      A simple web-based To-Do-List application built using PHP,
+                      HTML, CSS, and MySQL. User can add , update, and delete
+                      tasks in clean and minimal interface.
+                    </p>
+                  </div>
+                  <div class="card-footer bg-transparent mb-3">
+                    <a
+                      class="btn btn-outline-primary btn-sm text-uppercase"
+                      href="https://github.com/denuwansandeepa/To-Do-List"
+                      target="_blank"
+                    >
+                      <span class="material-icons-outlined me-1">code</span>
+                      Source Code
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="card h-100 shadow-lg border-0 bg-light">
+                  <img
+                    class="card-img-top"
+                    src="images/game.gif"
+                    alt="Project 3"
+                  />
+                  <div class="card-body p-4">
+                    <h5 class="card-title mb-3">2D-Gaming-Project</h5>
+                    <div class="mb-2">
+                      <div class="badge bg-primary rounded-pill">HTML</div>
+                      <div class="badge bg-primary rounded-pill">CSS</div>
+                      <div class="badge bg-primary rounded-pill">
+                        JavaScript
+                      </div>
+                    </div>
+                    <p class="card-text">
+                      A simple 2D platform game built using HTML, CSS,
+                      JavaScript. The player controls a character that can Jump
+                      and avoid obstacles to earn points. Includes basic
+                      animations, scoring system, collision detection, and game
+                      over screen.
+                    </p>
+                  </div>
+                  <div class="card-footer bg-transparent mb-3">
+                    <a
+                      class="btn btn-outline-primary btn-sm text-uppercase"
+                      href="https://github.com/denuwansandeepa/2D-MD-Visual-Game-Project-"
+                      target="_blank"
+                    >
+                      <span class="material-icons-outlined me-1">code</span>
+                      Source Code
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <hr />
+
+        <section id="testimonials" class="text-center py-5">
+          <div class="container py-5">
+            <div class="row justify-content-center">
+              <h2 class="fw-bold">My Skill</h2>
+              <p class="lead text-muted mb-5">Main Skills</p>
+            </div>
+          </div>
+          <div class="container mb-5">
+            <div class="row">
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="text-center fs-4 fst-italic mb-4 px-2">React</div>
+                <div
+                  class="d-flex align-items-center justify-content-center testimonial"
+                >
+                  <img
+                    class="rounded-circle me-3"
+                    src="images/download.png"
+                    alt="User 1"
+                    style="width: 100px"
+                    height="100px"
+                  />
+                  <div class="fw-bold">
+                    I am familiar with React
+                    <span class="text-primary mx-1">.</span>
+                    I handle state and API intergration
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="text-center fs-4 fst-italic mb-4 px-2">Node.js</div>
+                <div
+                  class="d-flex align-items-center justify-content-center testimonial"
+                >
+                  <img
+                    class="rounded-circle me-3"
+                    src="images/download.jpeg"
+                    alt="User 2"
+                    style="width: 100px"
+                    height="100px"
+                  />
+                  <div class="fw-bold">
+                    I work with Node.js for backend development
+                    <span class="text-primary mx-1">.</span>
+                    I create RESTful APIs and server logic.
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="text-center fs-4 fst-italic mb-4 px-2">PHP</div>
+                <div
+                  class="d-flex align-items-center justify-content-center testimonial"
+                >
+                  <img
+                    class="rounded-circle me-3"
+                    src="images/download (1).png"
+                    alt="User 3"
+                    style="width: 100px"
+                    height="100px"
+                  />
+                  <div class="fw-bold">
+                    Understand Back-End Development
+                    <span class="text-primary mx-1">/</span>
+                    Work with Database, Build Dynamic Web App
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <hr />
+
+        <section id="contact" class="text-center py-5">
+          <div class="container py-5">
+            <div class="row justify-content-center">
+              <h2 class="fw-bold">Contact</h2>
+              <p class="lead text-muted mb-5">
+                Do you need a full-stack web developer? I would love to hear
+                from you.
+              </p>
+            </div>
+          </div>
+          <div class="container mb-5">
+            <div class="row">
+              <div class="col-xl-5 col-xxl-6 mb-5">
+                <div id="map"></div>
+              </div>
+              <a
+                href="https://www.google.com/maps/place/Diyathalawa/@6.8056818,80.95429,15z/data=!4m15!1m8!3m7!1s0x3ae470444c243861:0x32d140012e3d5d99!2z4Lav4LeS4La64Lat4La94LeP4LeA!3b1!8m2!3d6.806951!4d80.9572021!16s%2Fm%2F03c9fyy!3m5!1s0x3ae4704f2de65daf:0xc5c191d21a78a872!8m2!3d6.8019217!4d80.9591746!16s%2Fg%2F1tfrks64?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank"
+                class="btn btn-sm btn-outline-primary rounded-pill"
+                >View On Map</a
+              >
+              <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                  <h6 class="text-uppercase mb-2">Address</h6>
+                  <p class="lead mb-0">Ruksevana, Dodamwatta, Diyathalawa</p>
+                </div>
+                <div class="mb-5">
+                  <h6 class="text-uppercase mb-2">Phone</h6>
+                  <p class="lead mb-0">+94 71 255 8968</p>
+                  <p class="lead mb-0">+94 75 378 9010</p>
+                </div>
+                <div class="mb-5">
+                  <h6 class="text-uppercase mb-2">Email</h6>
+                  <p class="lead mb-0">sandeepadenuwan980@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <hr />
+
+    <footer class="text-center py-4">
+      <div class="container px-5 mb-2">
+        Copyright &copy; 2025: Denuwan Sandeepa.All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

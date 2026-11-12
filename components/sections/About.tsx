@@ -91,7 +91,7 @@ export default function About() {
                 I am a software engineer and undergraduate based in <strong className="text-white font-medium">Bandarawela, Sri Lanka</strong>, pursuing my Software Engineering qualification (HNDIT / NVQ Level 6) at SLIATE.
               </p>
               <p>
-                Over the past <strong className="text-white font-medium">1 year and 9 months</strong>, I have worked across mission-critical domains: from contributing to an enterprise-grade <strong className="text-primary-300 font-medium">core banking platform</strong> at Dearo IT Solutions for 15 months, to architecting modern web portals and mobile apps as an <strong className="text-accent-cyan font-medium">Associate Software Engineer at Bright Solutions</strong>.
+                Over the past <strong className="text-white font-medium">1 year and 6 months</strong>, I have worked across mission-critical domains: from contributing to an enterprise-grade <strong className="text-primary-300 font-medium">core banking platform</strong> at <strong className="text-white font-medium">Dearo Investment Limited / Dearo IT Solutions</strong> for <strong className="text-white font-medium">1 year and 3 months</strong>, to currently working for the past <strong className="text-white font-medium">3 months (and ongoing)</strong> as an <strong className="text-accent-cyan font-medium">Associate Software Engineer at Bright Solutions</strong>.
               </p>
               <p>
                 My work balances stringent architectural resilience (ACID compliance, clean data modeling, secure REST APIs) with modern frontend artistry (Next.js 14, Flutter, fluid Three.js shaders, and Framer Motion micro-interactions).

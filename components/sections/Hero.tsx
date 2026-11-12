@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import dynamic from "next/dynamic";
 import { motion } from "framer-motion";
 import { ArrowDown, ArrowUpRight, Sparkles, FileDown, Terminal } from "lucide-react";
@@ -44,6 +45,32 @@ export default function Hero() {
 
       {/* Content Container */}
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 text-center flex flex-col items-center">
+        {/* Profile Avatar Badge */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.6 }}
+          className="mb-5 relative"
+        >
+          <div className="relative w-20 h-20 sm:w-24 sm:h-24 rounded-full p-1 bg-gradient-to-tr from-primary-500 via-accent-cyan to-purple-600 shadow-glow-violet group cursor-pointer">
+            <div className="relative w-full h-full rounded-full overflow-hidden border-2 border-slate-950">
+              <Image
+                src={profile.avatarUrl}
+                alt={profile.displayName}
+                fill
+                className="object-cover object-top transition-transform duration-500 group-hover:scale-110"
+                priority
+              />
+            </div>
+            {/* Live Indicator Dot */}
+            <span className="absolute bottom-0 right-0 w-6 h-6 rounded-full bg-slate-950 flex items-center justify-center p-0.5">
+              <span className="w-full h-full rounded-full bg-emerald-500 flex items-center justify-center">
+                <span className="w-2 h-2 rounded-full bg-white animate-ping" />
+              </span>
+            </span>
+          </div>
+        </motion.div>
+
         {/* Availability Badge */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}

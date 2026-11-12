@@ -8,6 +8,7 @@ import SectionHeading from "@/components/ui/SectionHeading";
 import ProjectCard from "@/components/ui/ProjectCard";
 import ProjectArchiveCard from "@/components/ui/ProjectArchiveCard";
 import MagneticButton from "@/components/ui/MagneticButton";
+import LiveDeployments from "@/components/sections/LiveDeployments";
 import { projects, ProjectItem, ProjectCategory } from "@/data/projects";
 
 type FilterOption = "All" | ProjectCategory;
@@ -47,6 +48,9 @@ export default function Projects() {
           gradientWord="Enterprise Deliverables"
           description="High-scale core banking architectures, cross-platform mobile apps with Flutter, and venture capital digital platforms."
         />
+
+        {/* LIVE PRODUCTION DOMAINS & PLAY STORE SHOWCASE */}
+        <LiveDeployments />
 
         {/* 1. FEATURED CASE STUDIES GRID (Large Cards) */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-24">
@@ -268,7 +272,11 @@ export default function Projects() {
                       rel="noopener noreferrer"
                       className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-primary-600 to-accent-cyan text-white text-xs font-semibold shadow-glow-violet"
                     >
-                      <span>Visit Live Website</span>
+                      <span>
+                        {selectedProject.liveUrl.includes("play.google.com")
+                          ? "Open on Google Play"
+                          : "Visit Live Website"}
+                      </span>
                       <ExternalLink className="w-3.5 h-3.5" />
                     </MagneticButton>
                   )}

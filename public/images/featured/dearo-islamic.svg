@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="islBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030c0a" />
+      <stop offset="60%" stop-color="#081a17" />
+      <stop offset="100%" stop-color="#020907" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#fbbf24" />
+    </linearGradient>
+    <filter id="islBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="40" />
+    </filter>
+  </defs>
+
+  <rect width="800" height="480" fill="url(#islBg)" />
+
+  <circle cx="200" cy="160" r="160" fill="#10b981" opacity="0.18" filter="url(#islBlur)" />
+  <circle cx="640" cy="320" r="160" fill="#f59e0b" opacity="0.15" filter="url(#islBlur)" />
+
+  <!-- Central Corporate Showcase Frame -->
+  <g transform="translate(60, 45)">
+    <rect width="680" height="380" rx="18" fill="rgba(6, 26, 22, 0.75)" stroke="rgba(245, 158, 11, 0.2)" stroke-width="1.5" />
+
+    <!-- Header -->
+    <rect width="680" height="50" rx="18" fill="rgba(255,255,255,0.02)" />
+    <circle cx="26" cy="25" r="4.5" fill="#ef4444" opacity="0.7" />
+    <circle cx="42" cy="25" r="4.5" fill="#f59e0b" opacity="0.7" />
+    <circle cx="58" cy="25" r="4.5" fill="#10b981" opacity="0.7" />
+    
+    <text x="82" y="30" fill="#ffffff" font-family="sans-serif" font-weight="bold" font-size="14">DEARO ISLAMIC LTD</text>
+    <text x="240" y="29" fill="#10b981" font-family="sans-serif" font-size="11">SHARIAH-COMPLIANT ETHICAL INVESTMENT PORTAL</text>
+    
+    <rect x="520" y="14" width="135" height="24" rx="12" fill="rgba(245, 158, 11, 0.15)" stroke="rgba(245,158,11,0.3)" />
+    <text x="536" y="29" fill="#fbbf24" font-family="monospace" font-size="9" font-weight="bold">AUDIT CERTIFIED</text>
+
+    <!-- Split: Left Portfolio Metrics -->
+    <g transform="translate(36, 80)">
+      <text x="0" y="14" fill="#6ee7b7" font-family="monospace" font-size="10" letter-spacing="1">ETHICAL ASSET POOL</text>
+      <text x="0" y="48" fill="#ffffff" font-family="sans-serif" font-size="28" font-weight="800">Mudarabah Portfolios</text>
+      <text x="0" y="72" fill="#fbbf24" font-family="monospace" font-size="12" font-weight="bold">★ 100% Shariah Compliant Certified</text>
+
+      <g transform="translate(0, 100)">
+        <rect width="250" height="65" rx="10" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.06)" />
+        <text x="16" y="24" fill="#94a3b8" font-family="sans-serif" font-size="11">Profit Share Distribution</text>
+        <text x="16" y="48" fill="#34d399" font-family="sans-serif" font-size="20" font-weight="bold">Annual 18.2% Ratio</text>
+      </g>
+
+      <g transform="translate(0, 180)">
+        <rect width="250" height="65" rx="10" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.06)" />
+        <text x="16" y="24" fill="#94a3b8" font-family="sans-serif" font-size="11">Institutional Investors</text>
+        <text x="16" y="48" fill="#ffffff" font-family="sans-serif" font-size="20" font-weight="bold">Over 650 Partners</text>
+      </g>
+    </g>
+
+    <!-- Split: Right Interactive Plan Comparison -->
+    <g transform="translate(330, 80)">
+      <rect width="310" height="255" rx="14" fill="rgba(0,0,0,0.3)" stroke="rgba(245,158,11,0.15)" />
+      
+      <!-- Islamic Arch Decorative Watermark -->
+      <path d="M 155 30 C 120 70, 70 120, 70 200 L 240 200 C 240 120, 190 70, 155 30 Z" fill="none" stroke="rgba(245,158,11,0.08)" stroke-width="2" />
+
+      <text x="24" y="32" fill="#fbbf24" font-family="sans-serif" font-size="13" font-weight="bold">Investment Model Highlights</text>
+
+      <g transform="translate(20, 55)">
+        <rect width="270" height="52" rx="8" fill="rgba(16,185,129,0.08)" stroke="rgba(16,185,129,0.2)" />
+        <text x="14" y="22" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold">Mudarabah Partnership</text>
+        <text x="14" y="38" fill="#a7f3d0" font-family="sans-serif" font-size="10">Trust financing with quarterly profit audits</text>
+
+        <rect y="64" width="270" height="52" rx="8" fill="rgba(245,158,11,0.08)" stroke="rgba(245,158,11,0.2)" />
+        <text x="14" y="86" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold">Sukuk Ethical Certificates</text>
+        <text x="14" y="102" fill="#fde68a" font-family="sans-serif" font-size="10">Asset-backed development bonds</text>
+
+        <rect y="128" width="270" height="52" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" />
+        <text x="14" y="150" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold">Transparency Disclosures</text>
+        <text x="14" y="166" fill="#94a3b8" font-family="sans-serif" font-size="10">Zero interest (Riba) &amp; speculation (Gharar)</text>
+      </g>
+    </g>
+  </g>
+</svg>
+

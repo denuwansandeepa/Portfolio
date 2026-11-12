@@ -43,11 +43,11 @@ export const profile: ProfileData = {
     "Next.js & React Specialist",
     "Creative UI/UX Designer"
   ],
-  bio: "Software Engineering undergraduate and Associate Software Engineer with 1.8+ years of production experience building high-scale fintech solutions, healthcare platforms, and dynamic web applications.",
+  bio: "Software Engineering undergraduate and Associate Software Engineer with 1.5+ years of production experience building high-scale fintech solutions, healthcare platforms, and dynamic web applications.",
   aboutStory: [
     "I am a passionate Full-Stack Web and Mobile Developer based in Bandarawela, Sri Lanka, currently pursuing Software Engineering (HNDIT / NVQ Level 6) at SLIATE.",
-    "My professional journey began at Dearo Investment Limited / Dearo IT Solutions, where I evolved from a Software Engineer Intern into a Core Project Contributor on an enterprise-grade core banking system over 15 months.",
-    "Currently, I serve as an Associate Software Engineer at Bright Solutions, delivering robust, high-performance web and mobile solutions with clean architecture and delightful user interactions."
+    "My professional journey began at Dearo Investment Limited / Dearo IT Solutions, where I evolved from a Software Engineer Intern into a Core Project Contributor on an enterprise-grade core banking system over 1 year and 3 months.",
+    "Currently, I have been working for 3 months (and ongoing) as an Associate Software Engineer at Bright Solutions, delivering robust, high-performance web and mobile solutions with clean architecture and delightful user interactions."
   ],
   location: {
     city: "Bandarawela",
@@ -61,7 +61,7 @@ export const profile: ProfileData = {
     linkedin: "https://www.linkedin.com/in/denuwansandeepa"
   },
   stats: [
-    { label: "Years Experience", value: "1.8+", numeric: 1.8, suffix: "+" },
+    { label: "Years Experience", value: "1.5+", numeric: 1.5, suffix: "+" },
     { label: "GitHub Repositories", value: "30+", numeric: 30, suffix: "+" },
     { label: "Core Technologies", value: "15+", numeric: 15, suffix: "+" },
     { label: "Commitment & Quality", value: "100%", numeric: 100, suffix: "%" }
@@ -97,5 +97,5 @@ export const profile: ProfileData = {
     }
   ],
   cvUrl: "/cv-denuwan-sandeepa.pdf",
-  avatarUrl: "/images/hero.jpeg"
+  avatarUrl: "/images/denuwan.jpg"
 };

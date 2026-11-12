@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, ArrowUpRight, FileDown } from "lucide-react";
@@ -10,6 +11,7 @@ import { profile } from "@/data/profile";
 
 const navLinks = [
   { name: "About", href: "#about" },
+  { name: "Live Sites", href: "#live-links" },
   { name: "Projects", href: "#projects" },
   { name: "Skills", href: "#skills" },
   { name: "Experience", href: "#experience" },
@@ -51,8 +53,13 @@ export default function Navbar() {
             href="#"
             className="flex items-center gap-3 group focus:outline-none"
           >
-            <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-primary-600 to-accent-cyan flex items-center justify-center font-display font-bold text-white text-sm shadow-glow-violet transition-transform group-hover:scale-105">
-              DS
+            <div className="relative w-8 h-8 rounded-full overflow-hidden border border-white/20 shadow-glow-violet transition-transform group-hover:scale-105">
+              <Image
+                src="/images/denuwan.jpg"
+                alt="Denuwan Sandeepa"
+                fill
+                className="object-cover object-top"
+              />
             </div>
             <div className="flex flex-col">
               <span className="font-display font-bold text-sm tracking-tight text-foreground group-hover:text-primary-400 transition-colors">

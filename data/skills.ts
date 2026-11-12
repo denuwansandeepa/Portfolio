@@ -14,54 +14,53 @@ export interface SkillCategory {
 export const skillCategories: SkillCategory[] = [
   {
     title: "Frontend Engineering",
-    description: "Architecting responsive, high-performance web applications with modern component frameworks and fluid motion.",
+    description: "Architecting responsive, SEO-friendly web applications with modern component frameworks and fluid motion.",
     icon: "Layout",
     skills: [
-      { name: "React", level: 92, experience: "1.8+ yrs", highlight: true, description: "Hooks, Context, Concurrent Mode, Virtual DOM performance" },
-      { name: "Next.js", level: 90, experience: "1.5+ yrs", highlight: true, description: "App Router, SSR, SSG, Server Actions, Route Handlers" },
-      { name: "TypeScript", level: 88, experience: "1.5+ yrs", highlight: true, description: "Strict typing, Generics, Discriminated Unions, Interface design" },
-      { name: "Tailwind CSS", level: 95, experience: "1.8+ yrs", highlight: true, description: "Custom design systems, arbitrary variants, fluid layouts" },
-      { name: "Framer Motion", level: 86, experience: "1.2+ yrs", highlight: false, description: "Layout animations, gesture tracking, physics springs" }
+      { name: "React & Next.js", level: 92, experience: "1.5+ yrs", highlight: true, description: "App Router, SSR, SSG, Hooks, Dynamic Routing, SEO Optimization" },
+      { name: "TypeScript & JavaScript", level: 90, experience: "1.5+ yrs", highlight: true, description: "Strict typing, ES6+, Asynchronous workflows, Interface design" },
+      { name: "Vue.js", level: 86, experience: "1.2+ yrs", highlight: true, description: "Enterprise Core Banking frontend modules, reactive state & form workflows" },
+      { name: "Tailwind CSS & Bootstrap", level: 95, experience: "1.5+ yrs", highlight: true, description: "Custom design systems, responsive multi-page layouts, utility styling" },
+      { name: "Framer Motion", level: 86, experience: "1.2+ yrs", highlight: false, description: "Layout animations, smooth transitions, interactive UI polish" }
     ]
   },
   {
-    title: "Backend & Systems",
-    description: "Designing robust API services, relational data models, and enterprise transaction processing pipelines.",
+    title: "Backend, APIs & Databases",
+    description: "Designing robust backend services, relational data models, and enterprise core banking API pipelines.",
     icon: "Server",
     skills: [
-      { name: "Node.js", level: 85, experience: "1.5+ yrs", highlight: true, description: "Express, Async flows, REST microservices, Middleware" },
-      { name: "PHP", level: 88, experience: "1.8+ yrs", highlight: true, description: "OOP, MVC patterns, Secure core banking platform development" },
-      { name: "MySQL", level: 87, experience: "1.8+ yrs", highlight: true, description: "Complex joins, indexing, query optimization, ACID transactions" },
-      { name: "Firebase", level: 84, experience: "1.5+ yrs", highlight: false, description: "Firestore, Auth, Cloud Storage, Realtime Database" },
-      { name: "Python", level: 80, experience: "1.0+ yr", highlight: false, description: "Data automation scripts, algorithmic logic, backend tasks" },
-      { name: "REST APIs", level: 92, experience: "1.8+ yrs", highlight: true, description: "Contract design, OpenAPI, rate-limiting, secure headers" }
+      { name: "PHP & Laravel", level: 90, experience: "1.5+ yrs", highlight: true, description: "Enterprise Core Banking backend services, MVC architecture, Eloquent ORM" },
+      { name: "CodeIgniter & Node.js", level: 85, experience: "1.5+ yrs", highlight: true, description: "RESTful API microservices, Express, CRUD systems, session auth" },
+      { name: "MySQL & phpMyAdmin", level: 89, experience: "1.5+ yrs", highlight: true, description: "Relational schema design, complex queries, indexing & data management" },
+      { name: "Firebase", level: 84, experience: "1.5+ yrs", highlight: false, description: "Firestore, Realtime Database, User Authentication & Cloud Storage" },
+      { name: "REST API Integration", level: 92, experience: "1.5+ yrs", highlight: true, description: "Frontend-to-backend communication, token auth, JSON payload validation" }
     ]
   },
   {
     title: "Mobile App Development",
-    description: "Crafting fluid cross-platform mobile apps for iOS and Android with delightful tactile interactions.",
+    description: "Crafting cross-platform mobile applications for Android and iOS integrated with PHP/MySQL REST APIs.",
     icon: "Smartphone",
     skills: [
-      { name: "Flutter", level: 90, experience: "1.5+ yrs", highlight: true, description: "Custom painters, complex animations, provider/bloc state management" },
-      { name: "Dart", level: 88, experience: "1.5+ yrs", highlight: false, description: "Asynchronous streams, isolates, null safety, OOP architecture" },
-      { name: "Mobile UI/UX", level: 89, experience: "1.5+ yrs", highlight: false, description: "Material 3, Cupertino adaptivity, haptic feedback, gestures" }
+      { name: "Flutter & Dart", level: 90, experience: "1.5+ yrs", highlight: true, description: "Cross-platform mobile apps, state management, REST API & MySQL integration" },
+      { name: "Android App Deployment", level: 88, experience: "1.5+ yrs", highlight: true, description: "End-to-end build signing, release testing, and Google Play Store publication" },
+      { name: "Responsive Mobile UI", level: 89, experience: "1.5+ yrs", highlight: false, description: "Material 3, adaptive layouts, digital prescription & e-learning interfaces" }
     ]
   },
   {
-    title: "Design & Developer Tooling",
-    description: "Bridging the gap between conceptual product design, git collaboration, and automated deployment.",
+    title: "Design, Tools & Practices",
+    description: "Bridging product design, version control, software testing, and production deployment support.",
     icon: "Wrench",
     skills: [
-      { name: "Figma", level: 88, experience: "2.0+ yrs", highlight: true, description: "Auto-layout, responsive design systems, interactive prototypes" },
-      { name: "Git & GitHub", level: 90, experience: "2.0+ yrs", highlight: true, description: "Gitflow, pull requests, semantic commit conventions" },
-      { name: "Three.js / WebGL", level: 78, experience: "1.0+ yr", highlight: false, description: "3D scene geometry, shaders, lighting, camera controls" },
-      { name: "Postman & Insomnia", level: 90, experience: "1.8+ yrs", highlight: false, description: "API documentation, contract test suites, mocking" }
+      { name: "Figma & Canva", level: 88, experience: "2.0+ yrs", highlight: true, description: "UI/UX wireframing, interactive prototypes, visual assets" },
+      { name: "Git & GitHub", level: 90, experience: "2.0+ yrs", highlight: true, description: "Version control, collaborative branching, code reviews" },
+      { name: "Testing & Deployment", level: 88, experience: "1.5+ yrs", highlight: false, description: "Module testing, bug resolution, production release & Play Store support" },
+      { name: "VS Code & NetBeans", level: 92, experience: "2.0+ yrs", highlight: false, description: "Debugging, extensions, workflow automation, Data Science with Python" }
     ]
   }
 ];
 
 export const allSkillsList = [
-  "React", "Next.js", "TypeScript", "Node.js", "Firebase", "PHP", 
-  "MySQL", "Python", "Flutter", "Tailwind CSS", "Framer Motion", "Figma", "REST APIs", "Three.js", "Git"
+  "Next.js", "React", "Vue.js", "TypeScript", "JavaScript", "Flutter", "Dart",
+  "Laravel", "PHP", "CodeIgniter", "Node.js", "MySQL", "Firebase",
+  "Tailwind CSS", "Framer Motion", "REST APIs", "Figma", "Git & GitHub"
 ];
-

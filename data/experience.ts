@@ -17,10 +17,10 @@ export const experiences: ExperienceItem[] = [
     role: "Associate Software Engineer",
     company: "Bright Solutions",
     location: "Sri Lanka",
-    period: "2024 - Present (Ongoing 6-Month Associate Position)",
+    period: "Present (3 Months & Ongoing)",
     isCurrent: true,
     type: "Associate",
-    summary: "Driving modern full-stack web and mobile engineering across client deliverables, focusing on Next.js 14, Flutter, and scalable API integrations.",
+    summary: "Currently working as an Associate Software Engineer (3 months & ongoing), driving modern full-stack web and mobile engineering across client deliverables with Next.js 14, Flutter, and scalable API integrations.",
     responsibilities: [
       "Architect and build client-facing web portals utilizing Next.js App Router, TypeScript, and Tailwind CSS.",
       "Develop responsive mobile applications in Flutter with robust state management and native feature hooks.",
@@ -31,36 +31,36 @@ export const experiences: ExperienceItem[] = [
   },
   {
     id: "dearo-it-solutions",
-    role: "Software Engineer / Project Contributor (15 Months)",
+    role: "Software Engineer Intern → Software Project Contributor (Core Banking)",
     company: "Dearo Investment Limited / Dearo IT Solutions",
     location: "Sri Lanka",
-    period: "2023 - 2024 (15 Months)",
+    period: "1 Year & 3 Months",
     isCurrent: false,
     type: "Internship to Core Role",
-    summary: "Commenced as a Software Engineer Intern and accelerated into a key Software Project Contributor on Dearo's mission-critical enterprise core banking system.",
+    summary: "Worked for 1 year and 3 months at Dearo Investment Limited / Dearo IT Solutions. Started as a Software Engineer Intern and progressed into a Software Project Contributor on a full enterprise core banking system.",
     responsibilities: [
-      "Promoted from Software Engineer Intern to Core Project Contributor on the enterprise banking solution.",
-      "Contributed to core financial ledger modules, transaction validation logic, and secure database migrations.",
-      "Engineered automated workflows and reports for financial compliance, safeguarding confidential business data.",
-      "Integrated backend PHP and MySQL services with high-availability transaction guarantees."
+      "Core Banking System Contributor: Built frontend modules with Vue.js and backend services with Laravel; managed relational data using MySQL and phpMyAdmin.",
+      "Implemented responsive UIs, complex form workflows, and seamless REST API communication between frontend and backend.",
+      "Delivered corporate websites (DVCCL, Dearo Investment, Dearo Venture Capital, Marine Consultation, Secretary & Audit Services) using Next.js, React, TypeScript, and Tailwind CSS.",
+      "Built cross-platform Flutter mobile apps (Dearo Digital, Doctor Prescription System, Dearo Education) integrated with PHP/MySQL REST APIs, including Google Play Store publication support."
     ],
-    techStack: ["Core Banking Architecture", "PHP", "MySQL", "JavaScript", "REST APIs", "Fintech Security"]
+    techStack: ["Vue.js", "Laravel", "Next.js", "React", "TypeScript", "Flutter", "PHP", "MySQL", "REST APIs"]
   },
   {
     id: "sliate-education",
-    role: "Software Engineering Undergraduate (HNDIT / NVQ Level 6)",
+    role: "HNDIT / NVQ Level 6 – Software Engineering Undergraduate",
     company: "Sri Lanka Institute of Advanced Technological Education (SLIATE)",
-    location: "Sri Lanka",
+    location: "Bandarawela / Badulla, Sri Lanka",
     period: "Undergraduate (Ongoing)",
     isCurrent: false,
     type: "Education",
-    summary: "Pursuing rigorous Higher National Diploma in Information Technology (HNDIT), NVQ Level 6 qualification specialized in Software Engineering.",
+    summary: "Pursuing Higher National Diploma in Information Technology (HNDIT / NVQ Level 6) specialized in Software Engineering, complemented by certifications in Data Science with Python and Mathematics.",
     responsibilities: [
-      "Mastering core software engineering principles: Object-Oriented Analysis & Design, Data Structures & Algorithms.",
-      "Executing comprehensive academic projects covering full-stack web systems, databases, and network architectures.",
-      "Maintained top academic standing with emphasis on clean code, software testing methodologies, and collaborative engineering."
+      "Core curriculum in Software Engineering, Object-Oriented Programming, Relational Database Management Systems, and Web & Mobile Architecture.",
+      "Certifications: Data Science with Python Workshop (Southern IRAA, 2023) & Short Course in Listening and Speech (Open University of Sri Lanka, 2023).",
+      "Completed Certificate Course in Short Method of Mathematics (A Grade, SNIT Campus) & Computer Awareness / English (Nanasala).",
+      "Secondary Education: GCE Advanced Level (Commerce Stream, 2021) & GCE Ordinary Level (2017) at B/Diyathawa M.M.V."
     ],
-    techStack: ["Data Structures", "Algorithms", "Software Engineering", "DBMS", "Java", "Web Technologies"]
+    techStack: ["Software Engineering", "Python", "DBMS", "Full-Stack Web", "Mobile Development", "Agile"]
   }
 ];
-

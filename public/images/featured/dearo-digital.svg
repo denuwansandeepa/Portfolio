@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ddBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030712" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <linearGradient id="phoneCardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <filter id="ddBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="35" />
+    </filter>
+  </defs>
+
+  <rect width="800" height="480" fill="url(#ddBg)" />
+
+  <circle cx="280" cy="200" r="160" fill="#7c3aed" opacity="0.25" filter="url(#ddBlur)" />
+  <circle cx="580" cy="300" r="140" fill="#06b6d4" opacity="0.2" filter="url(#ddBlur)" />
+
+  <!-- Left Info Column -->
+  <g transform="translate(80, 110)">
+    <!-- Google Play Badge -->
+    <rect width="180" height="34" rx="17" fill="rgba(16, 185, 129, 0.15)" stroke="rgba(16,185,129,0.35)" />
+    <circle cx="20" cy="17" r="4.5" fill="#10b981" />
+    <text x="32" y="21" fill="#34d399" font-family="monospace" font-size="10" font-weight="bold">LIVE ON GOOGLE PLAY</text>
+
+    <text x="0" y="80" fill="#ffffff" font-family="sans-serif" font-size="34" font-weight="800">Dearo Digital</text>
+    <text x="0" y="112" fill="#a78bfa" font-family="sans-serif" font-size="16" font-weight="500">Cross-Platform Flutter Client &amp; PHP Backend</text>
+
+    <text x="0" y="150" fill="#94a3b8" font-family="sans-serif" font-size="13" max-width="320">
+      Production mobile banking app published on Google Play.
+    </text>
+    <text x="0" y="172" fill="#94a3b8" font-family="sans-serif" font-size="13">
+      Instant wallet sync, dynamic caching &amp; biometric security.
+    </text>
+
+    <g transform="translate(0, 205)">
+      <rect width="130" height="34" rx="8" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)" />
+      <text x="14" y="21" fill="#e2e8f0" font-family="monospace" font-size="11">Flutter 3.x</text>
+
+      <rect x="145" y="0" width="130" height="34" rx="8" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)" />
+      <text x="162" y="21" fill="#e2e8f0" font-family="monospace" font-size="11">PHP / MySQL</text>
+    </g>
+  </g>
+
+  <!-- Right Smartphone Mockup -->
+  <g transform="translate(480, 45)">
+    <!-- Phone Body -->
+    <rect width="240" height="390" rx="36" fill="#0f172a" stroke="rgba(255,255,255,0.2)" stroke-width="3" />
+    <!-- Dynamic Island / Speaker -->
+    <rect x="80" y="14" width="80" height="14" rx="7" fill="#020617" />
+    
+    <!-- Phone Screen Content -->
+    <g transform="translate(14, 38)">
+      <rect width="212" height="332" rx="24" fill="#090d16" />
+
+      <!-- App Header -->
+      <text x="18" y="32" fill="#94a3b8" font-family="sans-serif" font-size="10">Welcome Back</text>
+      <text x="18" y="50" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="bold">Dearo Digital User</text>
+      <circle cx="185" cy="40" r="14" fill="rgba(124, 58, 237, 0.3)" />
+
+      <!-- Credit / Wallet Card -->
+      <g transform="translate(14, 70)">
+        <rect width="184" height="110" rx="14" fill="url(#phoneCardGrad)" />
+        <text x="14" y="26" fill="#ffffff" font-family="sans-serif" font-size="10" opacity="0.8">DEARO WALLET BALANCE</text>
+        <text x="14" y="55" fill="#ffffff" font-family="sans-serif" font-size="20" font-weight="800">LKR 184,250</text>
+        <text x="14" y="92" fill="#ffffff" font-family="monospace" font-size="10" opacity="0.9">•••• 8904</text>
+        <circle cx="160" cy="85" r="9" fill="rgba(255,255,255,0.4)" />
+        <circle cx="150" cy="85" r="9" fill="rgba(255,255,255,0.4)" />
+      </g>
+
+      <!-- Quick Actions -->
+      <g transform="translate(14, 200)">
+        <rect width="85" height="52" rx="10" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.06)" />
+        <text x="12" y="24" fill="#38bdf8" font-family="monospace" font-size="10">TRANSFER</text>
+        <text x="12" y="42" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="600">Quick Pay</text>
+
+        <rect x="98" y="0" width="85" height="52" rx="10" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.06)" />
+        <text x="110" y="24" fill="#34d399" font-family="monospace" font-size="10">HISTORY</text>
+        <text x="110" y="42" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="600">Statements</text>
+      </g>
+
+      <!-- Recent Transaction Row -->
+      <g transform="translate(14, 268)">
+        <rect width="184" height="42" rx="10" fill="rgba(255,255,255,0.03)" />
+        <circle cx="22" cy="21" r="10" fill="rgba(16,185,129,0.2)" />
+        <text x="40" y="19" fill="#ffffff" font-family="sans-serif" font-size="10" font-weight="bold">Dividend Payout</text>
+        <text x="40" y="32" fill="#64748b" font-family="sans-serif" font-size="9">Instant Credit</text>
+        <text x="135" y="25" fill="#34d399" font-family="monospace" font-size="11" font-weight="bold">+LKR 12K</text>
+      </g>
+    </g>
+  </g>
+</svg>
+

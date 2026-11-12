@@ -38,7 +38,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-white/5">
           {/* Col 1: Brand & bio */}
-          <div className="md:col-span-6 space-y-4">
+          <div className="md:col-span-4 space-y-4">
             <div className="flex items-center gap-3">
               <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-primary-600 to-accent-cyan flex items-center justify-center font-display font-bold text-white text-base shadow-glow-violet">
                 DS
@@ -60,8 +60,67 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Col 2: Navigation Links */}
+          {/* Col 2: Live Production Links */}
           <div className="md:col-span-3 space-y-3">
+            <h4 className="font-display font-semibold text-xs tracking-wider text-emerald-400 uppercase font-mono">
+              Live Production Links
+            </h4>
+            <ul className="space-y-2 text-sm font-mono">
+              <li>
+                <a
+                  href="https://www.dvccorporation.lk/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-slate-400 hover:text-accent-cyan transition-colors"
+                >
+                  dvccorporation.lk ↗
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://dearoinvestment.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-slate-400 hover:text-accent-cyan transition-colors"
+                >
+                  dearoinvestment.com ↗
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://dearoventurecapital.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-slate-400 hover:text-accent-cyan transition-colors"
+                >
+                  dearoventurecapital.com ↗
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://constmarine.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-slate-400 hover:text-accent-cyan transition-colors"
+                >
+                  constmarine.com ↗
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.dearodigital.dearo_frontend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-emerald-400 hover:text-emerald-300 transition-colors"
+                >
+                  Dearo Digital (Google Play) ↗
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* Col 3: Navigation Links */}
+          <div className="md:col-span-2 space-y-3">
             <h4 className="font-display font-semibold text-xs tracking-wider text-slate-300 uppercase font-mono">
               Navigation
             </h4>
